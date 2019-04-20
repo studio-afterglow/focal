@@ -1,0 +1,319 @@
+/*
+CSS RESET
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*          SITE STYLE          */
+
+body{
+    background: linear-gradient(#150663,#0C0534,#050D32);
+    font-family: 'Lato', sans-serif;
+}
+header{
+    text-align: center;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-top: 10em;
+    margin-bottom: 1em;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+.logo:hover{
+    opacity: 0.5;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 55%;
+}
+nav ul{
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+nav ul li a{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #A30AD0;
+    text-shadow: #E41BE6 2px 2px 5px;
+}
+.nav-border{
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to left, rgba(21,6,99,0.1), #5F0CDB, #E41BE6, #5F0CDB,rgba(21,6,99,0.1) );
+}
+
+.presentation{
+    height: 1000px;
+    background-image: url(lines-bg.png);
+    padding: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -5em;
+    margin-top: 4em;
+}
+.present-part{
+    margin-top: 6em;
+    width: 100%;
+    height: auto;
+}
+.present-image{
+    width: 100%;
+}
+.present-text h2{
+    font-size: 40px;
+    color: #C59FFF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.present-text p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    width: 65%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.part-image{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+.part-image .present-text{
+    margin-right: 10%;
+}
+.part-image .present-text p{
+    float: right;
+    text-align: right;
+    width: 90%;
+}
+.part-image .present-text h2{
+    text-align:right;
+    margin-top: 0.5em;
+}
+.part-right{
+    float: right;
+    z-index: 1;
+}
+.part-right h2{
+    text-align: right;
+}
+.part-right p{
+    width: 41%;
+    float: right;
+}
+.part-left{
+    float: left;
+}
+.part-left p{
+    width: 43%;
+    margin-left: 5%;
+    text-align: right;
+}
+.banner{
+    width: 100%;
+    background-image: url(banner-background.png);
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-image{
+    margin-top: -140px;
+    width: auto;
+    max-height: 800px;
+}
+.banner h2{
+    margin-left: -0.5em;
+    margin-top: 10%;
+    font-weight: 900;
+    font-size: 60px;
+    color: #C59FFF;
+    letter-spacing: 2px;
+}
+.banner h3{
+    margin-top: 2%;
+    font-style: italic;
+    color: #fff;
+    font-size: 92px;
+    letter-spacing: 5px;
+}
+.banner-button{
+    border: solid #fff 2px;
+    width: 40%;
+    text-align: center;
+    padding: 1em;
+    margin-top: 4em;
+    float: right;
+    margin-right: 7%;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.banner-button:hover{
+    background-color: #A30AD0;
+}
+.banner-button p{
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+.opinions{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid #3B3B3B 1px;
+    box-shadow: 0px 0px 6px #E600FF;
+    padding: 2em;
+}
+.opinion{
+    filter: blur(1px);
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+.opinion:hover{
+    filter: blur(0);
+}
+.opinion p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    color: #E8E8E8;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.opinion h3{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #C59FFF;
+    text-align: right;
+    margin-top: 1em;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    height: 300px;
+    background: linear-gradient(to bottom,rgba(95,12,219,0), rgba(95,12,219,0.5), #E41BE6);
+    bottom: 0; 
+    text-align: center;
+}
+.footer-text{
+    color: white;
+    font-weight: 300;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+filter: opacity(0.8);
+  transform: translate(-50%, -50%);
+}
+.parallax{
+    transition: initial;
+}
+
+@media (max-width: 700px){
+    .logo{
+    max-width: 85%;
+    margin-top: 8em;
+    }
+    nav{
+    width: 85%;}
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    nav ul li{
+       margin-top: 1em; 
+    }
+    nav ul li:first-child{
+        margin-top: 0;
+    }
+}
