@@ -15,4 +15,6 @@ function paralaksa(){
     $('.part-left').css('opacity', (wScroll*0.02))
     $('.part-image').css('opacity', (wScroll*0.008))
     
+    $('.banner').css('opacity', (wScroll*0.005))
+    $('.opinions').css('opacity', (wScroll*0.005))
 }
