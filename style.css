@@ -196,6 +196,7 @@ nav ul li a:hover{
     grid-template-columns: 3fr 7fr;
     background-size: contain;
     background-repeat: no-repeat;
+	opacity:0;
 }
 .banner-image{
     margin-top: -140px;
@@ -248,6 +249,7 @@ nav ul li a:hover{
     border: solid #3B3B3B 1px;
     box-shadow: 0px 0px 6px #E600FF;
     padding: 2em;
+	opacity:0;
 }
 .opinion{
     filter: blur(1px);
