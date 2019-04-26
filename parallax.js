@@ -12,7 +12,7 @@ function paralaksa(){
     $('.part-left').css('margin-top', 8-(wScroll*0.02)+'em')
     
     $('.part-right').css('opacity', (wScroll*0.005))
-    $('.part-left').css('opacity', (wScroll*0.005))
-    $('.part-image').css('opacity', (wScroll*0.005))
+    $('.part-left').css('opacity', (wScroll*0.02))
+    $('.part-image').css('opacity', (wScroll*0.008))
     
 }
