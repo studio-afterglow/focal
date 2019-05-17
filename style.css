@@ -207,7 +207,7 @@ nav ul li a:hover{
     margin-left: -0.5em;
     margin-top: 10%;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 6vw;
     color: #C59FFF;
     letter-spacing: 2px;
 }
@@ -215,7 +215,7 @@ nav ul li a:hover{
     margin-top: 2%;
     font-style: italic;
     color: #fff;
-    font-size: 92px;
+    font-size: 6vw;
     letter-spacing: 5px;
 }
 .banner-button{
@@ -331,5 +331,7 @@ filter: opacity(0.8);
 }
 	.opinion{
 		margin-bottom:1.5em;}
-	
+	.banner-image{
+		display:none;
+	}
 }
