@@ -355,6 +355,12 @@ margin-top: 1em;
 
 
 @media (max-width: 1400px){
+	.present-text h2{
+	font-size: 35px;
+	}
+	.opinions{
+		padding:0;
+	}
 .banner{
 	grid-template-columns:1fr;
 	background-size:cover;
