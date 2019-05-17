@@ -380,4 +380,7 @@ margin-left: 0;}
 margin-top: 1em;
 		margin-bottom: 1em;
 		width:auto;
-	}}
+	}
+	.opinion p{width: 90%;
+	margin-top:0.5em;}
+}
