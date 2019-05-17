@@ -334,4 +334,7 @@ filter: opacity(0.8);
 	.banner-image{
 		display:none;
 	}
+	.banner-content{
+	width:100%;
+	text-align:center;}
 }
