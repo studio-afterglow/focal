@@ -321,4 +321,9 @@ filter: opacity(0.8);
     nav ul li:first-child{
         margin-top: 0;
     }
+present-part{
+	margin-bottom:3em;
+}
+	present-part p{
+		width:100$;}
 }
