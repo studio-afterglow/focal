@@ -354,6 +354,8 @@ margin-top: 1em;
 	.part-image{
 	grid-template-columns: 1fr;
 	}
+	.present-text h2{
+	max-width:none;}
 }
 
 
