@@ -321,9 +321,15 @@ filter: opacity(0.8);
     nav ul li:first-child{
         margin-top: 0;
     }
-present-part{
+.present-part{
 	margin-bottom:3em;
 }
-	present-part p{
+	.present-part p{
 		width:100%;}
+	.opinions{
+		display:block;
+}
+	.opinion{
+		margin-bottom:1.5em;}
+	
 }
